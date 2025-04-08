@@ -1,12 +1,15 @@
-appId: host.exp.exponent  # Defines the target app (Expo Go in this case)
+appId: com.testengtakehome.app # Defines the target app (Expo Go in this case)
 ---
-- pressKey: "HOME"  # Ensures we start from the home screen
-- tapOn: "Google search"  # Opens the search bar in the Google app
-- inputText: "Expo Go"  # Enters "Expo Go" into the search bar
-- tapOn:
-        text: "Expo Go"
-        index: 1  # Selects the first search result for "Expo Go"
-- tapOn: "mobile-test-eng-take-home"  # Opens the test app
+- launchApp
+#appId: host.exp.exponent  # Defines the target app (Expo Go in this case)
+#---
+#- pressKey: "HOME"  # Ensures we start from the home screen
+#- tapOn: "Google search"  # Opens the search bar in the Google app
+#- inputText: "Expo Go"  # Enters "Expo Go" into the search bar
+#- tapOn:
+#        text: "Expo Go"
+#        index: 1  # Selects the first search result for "Expo Go"
+#- tapOn: "mobile-test-eng-take-home"  # Opens the test app
 
 # Login Process
 - tapOn: "Email"  # Selects the email input field
